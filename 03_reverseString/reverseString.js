@@ -1,9 +1,5 @@
 const reverseString = function(toReverse) {
-    result = "";
-    for(let i = toReverse.length - 1; i >= 0; i--) {
-        result += toReverse[i];
-    }
-    return result;
+    return toReverse.split("").reverse().join("");
 };
 
 // Do not edit below this line
